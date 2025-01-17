@@ -1,2 +1,4 @@
 # Motorola
 ro.mot.build.customerid=global
+
+ro.xpe.chipset=Snapdragon® 888+
