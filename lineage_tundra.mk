@@ -26,3 +26,19 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="tundra_g-user 14 U1SJS34.2-92-10-3 c8794-4238a9 release-keys MUR1-0.262" \
     BuildFingerprint=motorola/tundra_g/tundra:14/U1SJS34.2-92-10-3/c8794-4238a9:user/release-keys \
     DeviceProduct=tundra_g
+
+# RisingOS flags
+PRODUCT_NO_CAMERA := false
+TARGET_ENABLE_BLUR := true
+RISING_MAINTAINER := Kισżż
+RISING_CHIPSET="Snapdragon 888+"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingMaintainer="Kισżż" \
+    RisingChipset="Snapdragon 888+"
+WITH_GMS := true
+#TARGET_CORE_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+# QuickTap
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
