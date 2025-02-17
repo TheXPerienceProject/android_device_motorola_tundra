@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_tundra.mk
+    $(LOCAL_DIR)/xperience_tundra.mk
