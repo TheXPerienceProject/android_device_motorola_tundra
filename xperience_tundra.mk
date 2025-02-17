@@ -12,11 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/tundra/device.mk)
 
 # Inherit some common DerpFest stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
-
-# Derp
-DERP_BUILDTYPE := Unofficial
-DERP_MAINTAINER := 0mar
+$(call inherit-product, vendor/xperience/config/common.mk)
 
 # Gapps Flag
 WITH_GAPPS := true
