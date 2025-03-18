@@ -34,3 +34,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="tundra_g-user 14 U1SJS34.2-92-10-2 263481-6419b2 release-keys" \
     BuildFingerprint=motorola/tundra_g/tundra:14/U1SJS34.2-92-10-2/263481-6419b2:user/release-keys \
     DeviceProduct=tundra_g
+
+XPERIENCE_MAINTAINER := Kισżż
+XPERIENCE_CHIPSET := "Snapdragon 888+ 3GHz"
+XPERIENCE_BATTERY := 4400mAh
+XPERIENCE_DISPLAY := 1080x2400
+WITH_GMS:=true
+#TARGET_ESSENTIAL_GAPPS := true
+TARGET_ENABLE_PIXEL_GOODIES := true
