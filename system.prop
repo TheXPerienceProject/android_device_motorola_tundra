@@ -2,4 +2,4 @@
 sys.brightness.disable_gamma_conversion=true
 
 # XPerience settings
-ro.xpe.chipset=Snapdragon 888+ 3GHz
+ro.xpe.chipset=Snapdragon 888 3Ghz
